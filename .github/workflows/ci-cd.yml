@@ -159,3 +159,7 @@ jobs:
           git add kubernetes/deployment.yaml
           git commit -m "Update image to sha-${{ needs.docker.outputs.image_tag }} [skip ci]" || echo "No changes"
           git push
+
+
+
+          
